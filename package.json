@@ -1,7 +1,7 @@
 {
   "name": "kilukru-dev-node-cicd-heroku",
   "version": "1.0.0",
-  "description": "Ce dépôt est le résultat de l'article : \"Node.js CI/CD avec les actions GitHub et Heroku\". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/?p=392)",
+  "description": "Ce dépôt est le résultat de l'article : \"Node.js CI/CD avec les actions GitHub et Heroku\". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/node-js-ci-cd-avec-les-actions-github-et-heroku/)",
   "main": "index.js",
   "scripts": {
     "start": "node src",

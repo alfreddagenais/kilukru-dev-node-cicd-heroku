@@ -1,6 +1,6 @@
 # Node.js CI/CD avec les actions GitHub et Heroku
 
-Ce dépôt est le résultat de l'article : "Node.js CI/CD avec les actions GitHub et Heroku". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/construire-une-api-rest-a-laide-de-node-js-express-js-et-mongodb-et-la-tester-sur-postman/)
+Ce dépôt est le résultat de l'article : "Node.js CI/CD avec les actions GitHub et Heroku". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/node-js-ci-cd-avec-les-actions-github-et-heroku/)
 
 ## Contact
 
