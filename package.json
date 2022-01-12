@@ -1,0 +1,40 @@
+{
+  "name": "kilukru-dev-node-cicd-heroku",
+  "version": "1.0.0",
+  "description": "Ce dépôt est le résultat de l'article : \"Node.js CI/CD avec les actions GitHub et Heroku\". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/?p=392)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src",
+    "test": "jest src/app.test.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfreddagenais/kilukru-dev-node-cicd-heroku.git.git"
+  },
+  "keywords": [],
+  "author": "Alfred Dagenais <jesuis@alfreddagenais.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfreddagenais/kilukru-dev-node-cicd-heroku.git/issues"
+  },
+  "homepage": "https://github.com/alfreddagenais/kilukru-dev-node-cicd-heroku.git#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1",
+    "supertest": "^6.2.1"
+  }
+}
