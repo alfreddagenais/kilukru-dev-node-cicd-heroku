@@ -4,7 +4,8 @@
   "description": "Ce dépôt est le résultat de l'article : \"Node.js CI/CD avec les actions GitHub et Heroku\". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/?p=392)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src",
+    "start": "node src",
+    "serve": "nodemon src",
     "test": "jest src/app.test.js",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
